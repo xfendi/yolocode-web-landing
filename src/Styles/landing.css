@@ -1,0 +1,10 @@
+.landing__header-image {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(6, 6, 79, 0) 35%,
+    rgba(4, 7, 38, 0) 65%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
