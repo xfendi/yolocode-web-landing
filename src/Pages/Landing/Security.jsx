@@ -12,30 +12,38 @@ import ShoppingCartOutlinedIcon from "@mui/icons-material/ShoppingCartOutlined";
 
 const Security = () => {
   return (
-    <div className="flex flex-col gap-20 items-center mt-20 bg-blue-500">
-      <div className="text-4xl sm:text-5xl text-white text-center">
+    <div
+      className="flex flex-col gap-10 text-center justify-center items-center px-5 py-[15%] md:py-[5%] md:px-[10%] 2xl:px-[15%]"
+      id="security"
+    >
+      <div className="flex flex-col gap-10 items-center" data-aos="fade-up">
+        <div className="bg-neutral-900 p-2 px-4 text-sm rounded-full w-max">
+          Security & Trust
+        </div>
+        <div className="text-5xl sm:text-6xl text-white text-center">
         Ensuring the <span className="text-green-400">security and trust</span>{" "}
         of the platform using <span className="text-pink-400">modern</span>{" "}
         systems and <span className="text-blue-400">customer services.</span>
+        </div>
       </div>
-      <div className="sm:grid sm:grid-cols-3 flex flex-col gap-5 w-full items-center justify-center">
-        <div className="h-[340px] lg:h-[540px] sm:col-span-2 bg-[#1d1d1d] rounded-3xl flex lg:items-end items-center">
+      <div className="sm:grid sm:grid-cols-3 flex flex-col gap-5 w-full items-center justify-center" data-aos="fade-up">
+        <div className="p-5 lg:p-0 lg:h-[540px] sm:col-span-2 flex lg:items-end items-center bg-neutral-900 rounded-3xl border-2 border-neutral-800">
           <div className="flex-1 flex">
-            <div className="flex flex-col gap-10 mt-auto lg:items-start items-center lg:text-start text-center p-10">
+            <div className="flex flex-col gap-10 mt-auto lg:items-start items-center lg:text-start text-center lg:p-10">
               <div className="flex-col flex gap-5">
-                <div className="text-white text-3xl font-semibold h-max">
+                <div className="font-medium text-2xl">
                   Data Protection
                 </div>
-                <div className="text-neutral-400 text-md h-max">
+                <div className="text-neutral-300 text-md">
                   Your security is our priority. We implement the latest
                   technologies, like SSL encryption and secure authentication
                   methods, to keep your data safe.
                 </div>
               </div>
 
-              <div className="text-white bg-[#252525] flex gap-5 p-5 rounded-full w-max">
+              <div className="cursor-pointer flex p-3 px-5 gap-5 text-lg font-medium w-max rounded-full transition-all duration-300 border-2 border-neutral-100 bg-neutral-100 text-neutral-900">
                 <ShoppingCartOutlinedIcon />
-                <RouteOutlinedIcon className="text-pink-400" />
+                <RouteOutlinedIcon className="text-yellow-400 hover:scale-110 hover:-rotate-12" />
                 <GraphicEqOutlinedIcon />
                 <DonutLargeOutlinedIcon />
                 <MailOutlinedIcon />
@@ -51,40 +59,40 @@ const Security = () => {
             />
           </div>
         </div>
-        <div className="h-[340px] lg:h-[540px] bg-[#1d1d1d] rounded-3xl flex flex-col lg:items-end items-center">
+        <div className="p-5 lg:p-0 lg:h-[540px] bg-neutral-900 rounded-3xl border-2 border-neutral-800 flex flex-col lg:items-end items-center">
           <div className="flex-1 hidden lg:flex justify-center items-center pl-5">
             <img src={Innovation} alt="innovation" />
           </div>
-          <div className="flex-col flex gap-5 p-5 mt-auto h-max lg:text-start text-center lg:m-0 m-auto">
-            <div className="text-white text-3xl font-semibold h-max">
+          <div className="flex-col flex gap-5 lg:p-10 mt-auto h-max lg:text-start text-center lg:m-0 m-auto">
+            <div className="font-medium text-2xl">
               Innovation at Core
             </div>
-            <div className="text-neutral-400 text-md h-max">
+            <div className="text-neutral-300 text-md">
               We embrace innovation to deliver cutting-edge solutions for
               developers and creators. At Yolo Code, we’re always pushing
               boundaries to make your projects better.
             </div>
           </div>
         </div>
-        <div className="h-[340px] lg:h-[540px] sm:col-span-3 bg-[#1d1d1d] rounded-3xl flex w-full">
+        <div className="p-5 lg:p-0 lg:h-[540px] sm:col-span-3 bg-neutral-900 border-2 border-neutral-800 rounded-3xl flex w-full">
           <div className="flex-1 hidden lg:flex justify-center items-end">
             <img src={Discord} alt="discord" className="w-[560px] h-[500px]" />
           </div>
           <div className="flex-1 flex justify-center items-center">
-            <div className=" flex flex-col gap-5 items-center w-1/2 text-center">
-              <div className="text-white text-5xl font-semibold h-max">
+            <div className="flex flex-col gap-5 items-center lg:w-1/2 text-center">
+              <div className="font-medium text-2xl">
                 Community and Support
               </div>
-              <div className="text-neutral-400 text-md h-max">
+              <div className="text-neutral-300 text-md">
                 At Yolo Code, we’re more than just a platform — we’re a
                 community.
               </div>
               <a
-                href="/"
-                className="py-2 px-5 rounded-full text-white border-2 border-white hover:bg-white hover:text-black transition-all duration-300"
-              >
-                Join Discord
-              </a>
+              href="https://dc.yolocode.pl"
+              className="p-3 px-10 text-lg font-medium w-max rounded-full transition-all duration-300 border-2 border-neutral-100 hover:bg-neutral-900"
+            >
+              Join Discord
+            </a>
             </div>
           </div>
         </div>

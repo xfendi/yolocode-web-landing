@@ -12,6 +12,7 @@ const Landing = () => {
     <>
       <Header />
       <Features />
+      <Security />
     </>
   );
 };

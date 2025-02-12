@@ -15,7 +15,7 @@ const Header = () => {
             solutions <span className="text-blue-400">crafted</span> <br />{" "}
             exclusively <span className="text-green-400">for you</span>
           </div>
-          <div className="text-neutral-400 text-lg">
+          <div className="text-neutral-300 text-md">
             Join our discord server and bring your vision of a dream website or
             application to life!
           </div>

@@ -12,7 +12,7 @@ const Features = () => {
         </div>
         <div className="text-5xl sm:text-6xl text-white text-center">
           <span className="text-pink-400">Innovation</span> is central to our
-          ethos. <br />
+          ethos.
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5" data-aos="fade-up">
