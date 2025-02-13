@@ -5,7 +5,7 @@ import Header from "./Landing/Header";
 import Features from "./Landing/Features";
 import Security from "./Landing/Security";
 import Projects from "./Landing/Projects";
-import Hero from "./Landing/Hero";
+import FAQ from "./Landing/FAQ";
 
 const Landing = () => {
   return (
@@ -13,6 +13,8 @@ const Landing = () => {
       <Header />
       <Features />
       <Security />
+      <Projects />
+      <FAQ />
     </>
   );
 };

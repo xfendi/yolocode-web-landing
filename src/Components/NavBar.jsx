@@ -32,7 +32,10 @@ const NavBar = () => {
 
   return (
     <div className="flex justify-between items-center z-20">
-      <Link className="relative hover:-rotate-12 hover:scale-105 transition-all duration-300" to="/">
+      <Link
+        className="relative hover:-rotate-12 hover:scale-105 transition-all duration-300"
+        to="/"
+      >
         <img src={Logo} alt="" className="w-14" />
       </Link>
       <button
@@ -99,6 +102,20 @@ const NavBar = () => {
           >
             <Link className="transition-all duration-300 hover:text-yellow-300">
               Our Projects
+            </Link>
+          </li>
+          <li
+            onClick={(e) => {
+              setShowMenu(false);
+              e.preventDefault();
+              window.scrollTo({
+                top: document.querySelector("#faq").offsetTop,
+                behavior: "smooth",
+              });
+            }}
+          >
+            <Link className="transition-all duration-300 hover:text-yellow-300">
+              FAQ
             </Link>
           </li>
         </ul>
